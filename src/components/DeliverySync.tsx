@@ -6,9 +6,9 @@ export default function DeliverySync() {
       <div>
         <div className="text-2xl p-2">Overview</div>
         <div className="p-2">
-          A custom Shopify embedded app designed for retail merchants like
-          liquor/package stores to automate menu syncing, inventory updates, and
-          order management between Shopify and Uber Eats.
+          A custom Shopify embedded app designed for retail merchants to
+          automate menu syncing, inventory updates, and order management between
+          Shopify and Uber Eats.
         </div>
       </div>
       <div>
