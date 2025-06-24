@@ -63,40 +63,54 @@ export default function DeliverySync() {
         <div className="text-2xl p-2">Whats Next?</div>
         <div className="p-2">
           <ul className="list-disc list-inside">
-            <li>Different price markups for each Category</li>
-            <li>Auto accept orders when item is in stock</li>
-            <li>Integrate Doordash with Shopify</li>
-            <li>Real time Shopify Inventory Sync</li>
+            <li>Bufixes.</li>
+            <li>
+              UI imporvements by adding filtering options on the orders and menu
+              pages.
+            </li>
+            <li>Price markup for each Category.</li>
+            <li>Auto accept orders when item is in stock.</li>
+            <li>Real time Shopify Inventory Sync.</li>
+            <li>
+              Integrate Doordash ordering and menu management with Shopify.
+            </li>
+            <li>
+              Make App Public on Shopify App Store so more merchants can use it
+            </li>
           </ul>
         </div>
       </div>
       <div>
         <div className="text-2xl p-2">Demo video</div>
         <div className="p-2">
-          <div className="p-2">Order Sync</div>
-          <video
-            width="640"
-            height="360"
-            controls
-            autoPlay
-            muted
-            loop
-            style={{ borderRadius: "8px" }}
-          >
-            <source src={orderDemo} type="video/mp4" />
-          </video>
-          <div className="p-2">Menu Sync</div>
-          <video
-            width="640"
-            height="360"
-            controls
-            autoPlay
-            muted
-            loop
-            style={{ borderRadius: "8px" }}
-          >
-            <source src={menuDemo} type="video/mp4" />
-          </video>
+          <div className="p-2">
+            <div className="text-lg">Order Creation</div>
+            <video
+              width="640"
+              height="360"
+              controls
+              autoPlay
+              muted
+              loop
+              style={{ borderRadius: "8px" }}
+            >
+              <source src={orderDemo} type="video/mp4" />
+            </video>
+          </div>
+          <div className="p-2">
+            <div className="text-lg">Menu Push</div>
+            <video
+              width="640"
+              height="360"
+              controls
+              autoPlay
+              muted
+              loop
+              style={{ borderRadius: "8px" }}
+            >
+              <source src={menuDemo} type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
     </div>
