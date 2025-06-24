@@ -75,7 +75,7 @@ export default function DeliverySync() {
               Integrate Doordash ordering and menu management with Shopify.
             </li>
             <li>
-              Make App Public on Shopify App Store so more merchants can use it
+              Make App Public on Shopify App Store so more merchants can use it.
             </li>
           </ul>
         </div>
