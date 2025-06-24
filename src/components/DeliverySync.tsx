@@ -1,6 +1,3 @@
-import orderDemo from "../assets/order.mp4";
-import menuDemo from "../assets/menu.mp4";
-
 export default function DeliverySync() {
   return (
     <div className="p-4">
@@ -96,7 +93,7 @@ export default function DeliverySync() {
               loop
               style={{ borderRadius: "8px" }}
             >
-              <source src={orderDemo} type="video/mp4" />
+              <source src="/order.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="p-2">
@@ -110,7 +107,7 @@ export default function DeliverySync() {
               loop
               style={{ borderRadius: "8px" }}
             >
-              <source src={menuDemo} type="video/mp4" />
+              <source src="/menu.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
