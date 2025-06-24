@@ -1,5 +1,5 @@
-import orderDemo from "../assets/order-demo.mp4";
-import menuDemo from "../assets/menu-demo.mp4";
+import orderDemo from "../assets/order.mp4";
+import menuDemo from "../assets/menu.mp4";
 
 export default function DeliverySync() {
   return (
