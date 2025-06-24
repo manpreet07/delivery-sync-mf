@@ -32,7 +32,7 @@ export default function DeliverySync() {
         <div className="p-2">
           <ul className="list-disc list-inside">
             <li>Shopify to Uber Eats Menu Sync</li>
-            <li>Price Markup Shopfy Items by Categories</li>
+            <li>Price Markup Shopfy Items for all Categories</li>
             <li>Real-Time Inventory Sync</li>
             <li>Auto Order Acceptance</li>
             <li>Shopify Order Creation</li>
@@ -43,9 +43,11 @@ export default function DeliverySync() {
         <div className="text-2xl p-2">Who Benefits</div>
         <div className="p-2">
           <ul className="list-disc list-inside">
-            <li>Retailers stores</li>
-            <li>Shopify merchants expanding to Uber Eats</li>
-            <li>Businesses with fast-moving, high-volume inventory</li>
+            <li>Retail stores</li>
+            <li>
+              Shopify merchants with fast-moving, high-volume inventory
+              expanding to Uber Eats
+            </li>
           </ul>
         </div>
       </div>
