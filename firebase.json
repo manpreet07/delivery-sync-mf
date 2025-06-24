@@ -18,6 +18,15 @@
           { "key": "Pragma", "value": "no-cache" },
           { "key": "Expires", "value": "0" }
         ]
+      },
+      {
+        "source": "**/*.mp4",
+        "headers": [
+          { "key": "Content-Type", "value": "video/mp4" },
+          { "key": "Access-Control-Allow-Origin", "value": "*" },
+          { "key": "Accept-Ranges", "value": "bytes" },
+          { "key": "Cache-Control", "value": "public, max-age=3600" }
+        ]
       }
     ],
     "rewrites": [
